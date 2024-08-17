@@ -24,3 +24,6 @@
 
 * level-6/num_6.py
     - replace(old, new) 함수를 사용하면 기존 문자열의 값을 새로운 값으로 대체 가능
+
+* level-6/num_7.py
+    - sorted(list, key=word.find)에서 key를 word.find 를 사용할 경우 word의 각 값에 대한 find 값을 얻고, 이를 오름차순으로 정렬한다. 이 때 동일한 값의 경우 기존 list의 순서가 유지되며 이를 stable 정렬이라한다. [a,b,a] -> [a,a,b] 이고 a의 순서는 정렬 이전과 동일함.

@@ -27,3 +27,20 @@
 
 * level-6/num_7.py
     - sorted(list, key=word.find)에서 key를 word.find 를 사용할 경우 word의 각 값에 대한 find 값을 얻고, 이를 오름차순으로 정렬한다. 이 때 동일한 값의 경우 기존 list의 순서가 유지되며 이를 stable 정렬이라한다. [a,b,a] -> [a,a,b] 이고 a의 순서는 정렬 이전과 동일함.
+
+* level-13/num_11.py
+    - list.index() 함수의 시간복잡도는 O(N)
+    - sort(), sorted() 함수의 시간복잡도는 O(NlogN)
+    - 이 문제 총 시간 1688 ms (왜일까?)
+
+* level-14/num_1.py
+    - x in arr 함수에서 arr 이 list 이면 1번 찾을 때 마다 O(N)
+    - x in arr 함수에서 arr 이 set() 이면 O(1)
+    - 파이썬에서는 set() 이 해시테이블 구조 (딕셔너리 자료형) 으로 구성되어 있기 때문이다.
+
+* level-14/num_7.py
+    - set() 자료형의 연산 방법
+        - 교집합 : a.intersection(b)    | a&b
+        - 합집합 : a.union(b)           | a|b
+        - 차집합 : a.difference(b)      | a-b
+        - 값추가 : a.add()

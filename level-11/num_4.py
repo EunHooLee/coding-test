@@ -5,7 +5,7 @@
 
 n-1 : n ~ n
 
-(n-1)*(n-i)
+
 """
 n = int(input())
 sum = 0
